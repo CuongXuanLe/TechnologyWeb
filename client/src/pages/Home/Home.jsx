@@ -3,7 +3,7 @@ import { HomeHeader } from '../../components'
 
 const Home = () => {
   return (
-    <div blog__header>
+    <div className="blog__header">
       <HomeHeader/>
     </div>
   )

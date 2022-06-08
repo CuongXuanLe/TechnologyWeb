@@ -1,0 +1,10 @@
+.blog__homeHeader{
+    display: flex;
+    height: 570px;
+}
+
+.homeHeader__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
