@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
-import {NavBar, } from "./Components";
+import { NavBar } from "./components";
+import { Home } from "./pages";
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <Home/>
     </div>
   );
 }
