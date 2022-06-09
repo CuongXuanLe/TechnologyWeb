@@ -7,9 +7,10 @@ import Article from './Article/Article';
 const HomeArticle = () => {
   return (
     <div className='blog__article'>
-      <div className="article__list">
+      <div  className="article__list">
           {data.article.map((article) =>(
             <Article 
+            link={article.link}
             image={article.image} 
             tittle={article.tittle} 
             header={article.header} 

@@ -1,7 +1,8 @@
 import images from './images'
 
 const article = [
-    {
+    {   
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         image: images.footer_1,
         tittle: 'NATURE',
         header: 'Tempor deserunt Sunt Qui',
@@ -9,7 +10,8 @@ const article = [
         date: 'November 3, 2021',
         content: 'Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure.'
     },
-    {
+    {   
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         image: images.footer_2,
         tittle: 'PLANTS',
         header: 'Occaecat Anim eu Qui',
@@ -18,6 +20,7 @@ const article = [
         content: 'Qui ipsum consectetur ad incididunt et aliquip exercitation laboris nisi reprehenderit. Et excepteur commodo esse enim ea aliqua officia reprehenderit.'
     },
     {
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         image: images.footer_3,
         tittle: 'FOOD',
         header: 'Fugiat Incididunt Voluptate Consequat',
@@ -26,6 +29,7 @@ const article = [
         content: 'Mollit ea culpa ipsum pariatur eiusmod. Irure et'
     },
     {
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         image: images.footer_4,
         tittle: 'COLORFUL',
         header: 'Occaecat Anim eu Qui',

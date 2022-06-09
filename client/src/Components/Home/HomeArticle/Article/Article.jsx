@@ -1,14 +1,16 @@
 import React from 'react'
 import './Article.css'
 
-const Article = ({image,
+const Article = ({
+    link,
+    image,
     tittle,
     header,
     userName,
     date,
     content}) => {
   return (
-    <div className='Article__items'>
+    <a href={link} className='Article__items' alt={header}>
       <div className="article__img">
           <img src={image} alt="Article"/>
       </div>
@@ -28,7 +30,7 @@ const Article = ({image,
               <p>{content}</p>
           </div>
       </div>
-    </div>
+    </a>
   )
 }
 

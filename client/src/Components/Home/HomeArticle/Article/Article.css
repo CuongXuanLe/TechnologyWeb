@@ -4,3 +4,28 @@
     margin-bottom: 60px;
 }
 
+.article__body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.article__tittle{
+    color: rgba(28, 28, 28, 0.5);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.article__info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+    font-size: 16px;
+    color: rgba(28, 28, 28, 0.5);
+}
+
+
+
