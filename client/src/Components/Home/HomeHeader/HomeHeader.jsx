@@ -61,7 +61,7 @@ const HomeHeader = () => {
               </div>
             </div>
           </div>
-          <div className="sub__article-text bottom1">
+          <div className="sub__article-text">
             <img src={images.content_4} alt="image2" />
               <div className="header__sub-article">
               <p className="sub__article-header">
