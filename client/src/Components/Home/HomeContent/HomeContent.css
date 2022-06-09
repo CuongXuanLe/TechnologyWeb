@@ -50,6 +50,11 @@
     color: rgba(28, 28, 28, 0.5);
 }
 
+.dot{
+    margin: -5px 10px;
+    font-weight: 800;
+}
+
 .content__box-text{
     font-style: normal;
     font-weight: 400;
