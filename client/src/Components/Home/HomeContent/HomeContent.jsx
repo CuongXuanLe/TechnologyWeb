@@ -1,6 +1,5 @@
 import React from 'react'
 import './HomeContent.css'
-import images from '../../../constants/images';
 
 const HomeContent = () => {
   return (

@@ -1,0 +1,6 @@
+.blog__article{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 86px;
+}

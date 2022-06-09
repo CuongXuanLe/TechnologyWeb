@@ -1,0 +1,6 @@
+.Article__items{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+

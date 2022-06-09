@@ -1,11 +1,12 @@
 import React from 'react'
-import { HomeContent, HomeHeader } from '../../components'
+import { HomeArticle, HomeContent, HomeHeader } from '../../components'
 
 const Home = () => {
   return (
     <div className="blog__header">
       <HomeHeader/>
       <HomeContent/>
+      <HomeArticle/>
     </div>
   )
 }
