@@ -1,12 +1,12 @@
 import React from 'react'
 import './NavBar.css'
 
-export default function NavBar() {
+const NavBar= ({ toggleMenu, setToggleMenu }) => {
   return (
     <div className="Navbar">
       <div className='blog__nav'>
-        <div className="top__menu">
-        <i class="fa-solid fa-bars"></i>
+        <div className={"top__menu" + (toggleMenu && "active")} onClick={() => setToggleMenu(!toggleMenu)}>
+          <i class="fa-solid fa-bars"></i>
         </div>
         <div className="top__name">
           <a href="/">TEKUN.IO</a>
@@ -21,12 +21,13 @@ export default function NavBar() {
           </button>
         </div>
       </div>
-      <div className="Navbar__sub-menu">
+      {/* <div className="Navbar__sub-menu">
         <a href="/">HOME</a>
         <a href="/">ABOUT</a>
         <a href="/">PROFILE</a>
         <a href="/">WRITE</a>
-      </div>
+      </div> */}
     </div>
   )
 }
+export default NavBar

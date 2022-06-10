@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NavBar, Footer } from "./components";
+import { NavBar, Footer, SideBar } from "./components";
 import { Home } from "./pages";
 import {
   BrowserRouter as Router,
@@ -10,13 +10,36 @@ import {
 } from 'react-router-dom';
 
 import './App.css'
-function App() {
+const App = () => {
+
+  const [toggleMenu, setToggleMenu] = useState(false);
+
+  function ScrollToTop() {
+
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
+    console.log(pathname)
+
+    return null;
+  }
+
   return (
-    <div className="App">
-      <NavBar/>
-      <Home/>
+    <Router>
+      <ScrollToTop />
+      
+      <NavBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
+      <SideBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
+      
+      <Routes>
+        <Route path='/' element={<Home />}/>
+      </Routes>
+      
       <Footer/>
-    </div>
+    </Router>
   );
 }
 
