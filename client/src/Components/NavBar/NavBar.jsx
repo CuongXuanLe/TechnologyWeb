@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './NavBar.css'
 
 const NavBar= ({ toggleMenu, setToggleMenu }) => {
@@ -17,7 +18,9 @@ const NavBar= ({ toggleMenu, setToggleMenu }) => {
               <input type="text" class="search__input" aria-label="search" placeholder="Search"/>
             </div>
           <button className="top__nav-button" type="button">
-            <p>Login</p>
+            <Link to="/login">
+              <p>Login</p>
+            </Link>
           </button>
         </div>
       </div>

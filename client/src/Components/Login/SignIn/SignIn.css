@@ -1,0 +1,10 @@
+.SignIn__main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.SignIn__img img{
+    height: 100%;
+
+}

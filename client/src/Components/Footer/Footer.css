@@ -9,6 +9,7 @@
     font-weight: 400;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .footer__brand{

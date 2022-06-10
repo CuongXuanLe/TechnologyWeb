@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavBar, Footer, SideBar } from "./components";
-import { Home } from "./pages";
+import { Home, Login } from "./pages";
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,8 +8,9 @@ import {
   useLocation,
   Link
 } from 'react-router-dom';
+import './App.css';
 
-import './App.css'
+
 const App = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -36,6 +37,7 @@ const App = () => {
       
       <Routes>
         <Route path='/' element={<Home />}/>
+        <Route path='/login' element={<Login />}/>
       </Routes>
       
       <Footer/>
