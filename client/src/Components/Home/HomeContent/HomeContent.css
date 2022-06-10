@@ -5,7 +5,7 @@
     height: 592px;
     max-width: 100%;
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
     justify-content: flex-end;
     align-items: center;
 }

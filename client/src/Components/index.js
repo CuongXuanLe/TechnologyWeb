@@ -6,11 +6,14 @@ import HomeContent from "./Home/HomeContent/HomeContent";
 import Article from "./Home/HomeArticle/Article/Article";
 import HomeArticle from "./Home/HomeArticle/HomeArticle";
 
+//Footer
+import Footer from "./Footer/Footer.jsx";
 
 export{
     NavBar,
     HomeHeader,
     HomeContent,
     Article,
-    HomeArticle
+    HomeArticle,
+    Footer
 }

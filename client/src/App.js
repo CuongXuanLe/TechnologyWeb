@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NavBar } from "./components";
+import { NavBar, Footer } from "./components";
 import { Home } from "./pages";
 import {
   BrowserRouter as Router,
@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Home/>
+      <Footer/>
     </div>
   );
 }
