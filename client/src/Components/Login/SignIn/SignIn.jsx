@@ -43,7 +43,7 @@ const SignIn = () => {
         <div className="SignIn__no-account">
           <p>
             Don't have an account ? 
-            <Link to="/login">
+            <Link to="/login/register">
               <span> Join free today </span>
             </Link>
           </p>

@@ -127,16 +127,16 @@
     margin-bottom: 100px;
 }
 
-.fa-google{
+.SignIn__brands .fa-google{
     color: rgb(241, 31, 31);
 }
 
-.fa-apple{
+.SignIn__brands .fa-apple{
     color: #000;
 }
 
-.fa-facebook-f{
-    color: rgb(24, 57, 202);
+.SignIn__brands .fa-facebook-f{
+    color: rgb(37, 57, 145);
 }
 
 .SignIn__brands-btn{
