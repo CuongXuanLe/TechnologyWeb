@@ -10,6 +10,10 @@ import HomeContent from "./Home/HomeContent/HomeContent";
 import Article from "./Home/HomeArticle/Article/Article";
 import HomeArticle from "./Home/HomeArticle/HomeArticle";
 
+//Login
+import SignIn from "./Login/SignIn/SignIn";
+import SignUp from "./Login/SignUp/SignUp";
+
 //Footer
 import Footer from "./Footer/Footer.jsx";
 
@@ -20,5 +24,7 @@ export{
     HomeContent,
     Article,
     HomeArticle,
+    SignIn,
+    SignUp,
     Footer
 }
