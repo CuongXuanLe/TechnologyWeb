@@ -1,5 +1,29 @@
 .SignUp__main{
     width: 100%;
-    height: 500px;
-    background-color: #0000;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    color: #2D3748; 
+}
+
+.SignUp__fix{
+    margin-top: -130px;
+}
+
+.Privacy__Prolicy{
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 14px;
+    color: #989898;
+}
+
+.Privacy__Prolicy span{
+    color: #000;
+}
+
+.input__SignIn p{
+    padding: 15px 190px;
 }
