@@ -2,9 +2,171 @@
     display: flex;
     flex-direction: row;
     margin-top: 100px;
+    color: #2D3748;  
+}
+
+.SignIn__img
+{
+    display: flex;
+    flex: 1;
+}
+.SignIn__info{
+    display: flex;
+    flex: 1;
 }
 
 .SignIn__img img{
     height: 100%;
+    max-width: 100%;
+}
 
+.SignIn__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left: 250px;
+}
+
+.SignIn__header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    margin-bottom: 54px;
+}
+
+.SignIn__header h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.btn__input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input__account,
+.input__password{
+    margin-bottom: 19px;
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    padding-left: 15px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.forgetPassword{
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+    cursor: pointer;
+    color:rgba(152, 152, 152, 1)
+}
+
+.input__SignIn{
+    width: 450px;
+    height: 50px;
+    background: #424242;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.SignIn__otherways{
+    margin: 35px 0;
+    display: flex;
+    flex-direction: row;
+    color:rgba(152, 152, 152, 1);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+}
+.SignIn__otherways p{
+    margin: 0 40px;
+}
+.boder{
+    width: 127px;
+    border-bottom: 1px solid rgba(152, 152, 152, 1);
+}
+
+.SignIn__brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.fa-google{
+    color: rgb(241, 31, 31);
+}
+
+.fa-apple{
+    color: #000;
+}
+
+.fa-facebook-f{
+    color: rgb(24, 57, 202);
+}
+
+.SignIn__brands-btn{
+    width: 130px;
+    height: 60px;
+    background: #F5F5F5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.middle{
+    margin: 0 30px;
+}
+
+.SignIn__no-account{
+    margin: 0 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #616161;
+}
+.SignIn__no-account span{
+    color: rgb(25, 88, 204);
+    cursor: pointer;
+}
+.SignIn__no-account span:hover{
+    text-decoration: underline;
 }
