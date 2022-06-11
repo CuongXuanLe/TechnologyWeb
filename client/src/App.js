@@ -13,6 +13,7 @@ import './App.css';
 
 const App = () => {
 
+  const [login, setLogin] = useState(false);
   const [toggleMenu, setToggleMenu] = useState(false);
 
   function ScrollToTop() {
@@ -32,12 +33,12 @@ const App = () => {
     <Router>
       <ScrollToTop />
       
-      <NavBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
+      <NavBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} login={login}/>
       <SideBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
       
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/login/*' element={<Login />}/>
+        <Route path='/login/*' element={<Login setLogin={setLogin} />}/>
       </Routes>
       
       <Footer/>

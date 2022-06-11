@@ -3,7 +3,8 @@ import images from '../../../constants/images';
 import { Link } from 'react-router-dom'
 import './SignIn.css'
 
-const SignIn = () => {
+
+const SignIn = ({ setLogin }) => {
   return (
     <div className='SignIn__main'>
       <div className="SignIn__img">
@@ -21,7 +22,7 @@ const SignIn = () => {
           <p>Recover Password?</p>
           </div>
           <div className="input__SignIn">
-            <p>Sign In </p>
+            <button onClick={setLogin}><Link to="/">Sign In</Link></button>
           </div>
         </form>
         <div className="SignIn__otherways">

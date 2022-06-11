@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './NavBar.css'
 
-const NavBar= ({ toggleMenu, setToggleMenu }) => {
+const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
   return (
     <div className="Navbar">
       <div className='blog__nav'>
@@ -17,11 +17,17 @@ const NavBar= ({ toggleMenu, setToggleMenu }) => {
               <button class="search__submit" aria-label="submit search"><i class="fas fa-search"></i></button>
               <input type="text" class="search__input" aria-label="search" placeholder="Search"/>
             </div>
-          <button className="top__nav-button" type="button">
-            <Link to="/login">
-              <p>Login</p>
-            </Link>
-          </button>
+            {login ? (
+              <p>deptrai</p>
+            ) : (
+              <button className="top__nav-button" type="button">
+              <Link to="/login">
+                <p>Login</p>
+              </Link>
+            </button>
+            )
+            }
+          
         </div>
       </div>
       {/* <div className="Navbar__sub-menu">

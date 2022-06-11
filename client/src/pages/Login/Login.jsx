@@ -6,11 +6,11 @@ import {
   Route,
 } from 'react-router-dom';
 
-const Login = () => {
+const Login = ({ setLogin }) => {
   return (
     <div className='blog__main-login'>
       <Routes>
-        <Route exact path='/' element={<SignIn/>}/>
+        <Route exact path='/' element={<SignIn setLogin={setLogin}/>}/>
         <Route path='/register' element={<SignUp/>}/>
       </Routes>
     </div>
