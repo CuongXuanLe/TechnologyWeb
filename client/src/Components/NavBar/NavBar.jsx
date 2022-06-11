@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './NavBar.css'
+import images from '../../constants/images'
 
 const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
   return (
@@ -18,7 +19,9 @@ const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
               <input type="text" class="search__input" aria-label="search" placeholder="Search"/>
             </div>
             {login ? (
-              <p>deptrai</p>
+              <div className='login__avatar'>
+                <img src={images.ProfilePicture} alt="avatar" />
+              </div>
             ) : (
               <button className="top__nav-button" type="button">
               <Link to="/login">

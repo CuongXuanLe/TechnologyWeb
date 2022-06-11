@@ -22,7 +22,7 @@ const SignIn = ({ setLogin }) => {
           <p>Recover Password?</p>
           </div>
           <div className="input__SignIn">
-            <button onClick={setLogin}><Link to="/">Sign In</Link></button>
+            <button className='input__SignIn-btn' onClick={setLogin}><Link to="/">Sign In</Link></button>
           </div>
         </form>
         <div className="SignIn__otherways">
