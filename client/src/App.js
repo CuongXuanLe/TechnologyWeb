@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavBar, Footer, SideBar } from "./components";
-import { Home, Login } from "./pages";
+import { Home, Login, About } from "./pages";
 import {
   BrowserRouter as Router,
   Routes,
@@ -39,6 +39,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/login/*' element={<Login setLogin={setLogin} />}/>
+        <Route path='/about' element={<About />}/>
       </Routes>
       
       <Footer/>

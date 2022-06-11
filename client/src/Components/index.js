@@ -14,6 +14,9 @@ import HomeArticle from "./Home/HomeArticle/HomeArticle";
 import SignIn from "./Login/SignIn/SignIn";
 import SignUp from "./Login/SignUp/SignUp";
 
+//About
+import AboutPage from "./About/AboutPage";
+
 //Footer
 import Footer from "./Footer/Footer.jsx";
 
@@ -26,5 +29,6 @@ export{
     HomeArticle,
     SignIn,
     SignUp,
-    Footer
+    Footer,
+    AboutPage
 }
