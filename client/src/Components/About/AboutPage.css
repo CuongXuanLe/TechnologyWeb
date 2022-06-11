@@ -1,0 +1,86 @@
+.main__about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__about h1{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.main__about p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.about__profile{
+    margin: 100px 250px;
+    display: flex;
+}
+
+.about__profile img{
+    height: 231px;
+    width: 231px;
+}
+
+.about__profile-content{
+    margin:0 75px;
+}
+
+.my{
+    margin: 10px 0;
+    color: rgba(28, 28, 28, 0.5);
+}
+
+.social__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.social__info-website{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social__info-website p {
+    margin-left: 5px;
+}
+
+.social__info-app i{
+    cursor: pointer;
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+.about__profile-slogan{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px 125px;
+    text-align: center;
+
+}
+
+.about__profile-slogan h1 {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.about__profile-slogan p{
+    margin: 32px 350px 0;
+    color: #7B7B7B;
+}
