@@ -23,7 +23,7 @@ const SideBar= ({ toggleMenu, setToggleMenu }) => {
                     </Link>
                 </li>
                 <li onClick={() => setToggleMenu(false)}>
-                    <Link to="/" >
+                    <Link to="/write" >
                     WRITE                
                     </Link>
                 </li>

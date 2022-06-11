@@ -17,6 +17,9 @@ import SignUp from "./Login/SignUp/SignUp";
 //About
 import AboutPage from "./About/AboutPage";
 
+//Write
+import WritePage from "./Write/WritePage";
+
 //Footer
 import Footer from "./Footer/Footer.jsx";
 
@@ -30,5 +33,6 @@ export{
     SignIn,
     SignUp,
     Footer,
-    AboutPage
+    AboutPage,
+    WritePage
 }

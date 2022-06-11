@@ -14,6 +14,7 @@ import footer_4 from '../assets/footer_4.png';
 import login from '../assets/login.png';
 import ProfilePicture from '../assets/ProfilePicture.png';
 import avatarLarge from '../assets/avatarLarge.png'
+import HeaderWrite from '../assets/HeaderWrite.png'
 
 export default{
     login,
@@ -31,7 +32,8 @@ export default{
     footer_3,
     footer_4,
     ProfilePicture,
-    avatarLarge
+    avatarLarge,
+    HeaderWrite
 };
 
 
