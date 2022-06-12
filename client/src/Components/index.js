@@ -21,8 +21,11 @@ import AboutPage from "./About/AboutPage";
 //Write
 import WritePage from "./Write/WritePage";
 
-//
+//Post
 import PostPage from "./Post/PostPage";
+
+//Profile
+import ProfilePage from "./Profile/ProfilePage";
 
 //Footer
 import Footer from "./Footer/Footer.jsx";
@@ -40,5 +43,6 @@ export{
     AboutPage,
     WritePage,
     PostPage,
-    ChangePassword
+    ChangePassword,
+    ProfilePage
 }

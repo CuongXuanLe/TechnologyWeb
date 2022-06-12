@@ -23,10 +23,12 @@ const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
                 <img src={images.ProfilePicture} alt="avatar" />
                 <div className="box__setting">
                   <p className='box__setting-name'>MikeJoester</p>
-                  <div className="setting__profile">
-                    <i class="fa-regular fa-user"></i>
-                    <p>Profile</p>
-                  </div>
+                  <Link to='/Profile'>
+                    <div className="setting__profile">
+                      <i class="fa-regular fa-user"></i>
+                      <p>Profile</p>
+                    </div>
+                  </Link>
                   <Link to='/ChangePassword'>
                     <div className="setting__password">
                       <i class="fa-solid fa-gear"></i>

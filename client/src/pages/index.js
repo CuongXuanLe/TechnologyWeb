@@ -4,6 +4,7 @@ import About from './About/About';
 import Write from './Write/Write';
 import Post from './Post/Post';
 import Password from './Password/Password';
+import Profile from './Profile/Profile';
 
 export{
     Home,
@@ -11,5 +12,6 @@ export{
     About,
     Write,
     Post,
-    Password
+    Password,
+    Profile
 }
