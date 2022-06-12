@@ -107,7 +107,7 @@
 .comment__info {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
