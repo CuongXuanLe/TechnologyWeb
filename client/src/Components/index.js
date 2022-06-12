@@ -1,5 +1,6 @@
 //Nav
 import NavBar from "./NavBar/NavBar";
+import ChangePassword from "./ChangePassword/ChangePassword";
 
 //SideBar
 import SideBar from "./SideBar/SideBar";
@@ -38,5 +39,6 @@ export{
     Footer,
     AboutPage,
     WritePage,
-    PostPage
+    PostPage,
+    ChangePassword
 }

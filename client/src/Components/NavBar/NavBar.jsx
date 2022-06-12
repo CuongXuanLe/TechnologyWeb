@@ -27,10 +27,12 @@ const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
                     <i class="fa-regular fa-user"></i>
                     <p>Profile</p>
                   </div>
-                  <div className="setting__password">
-                    <i class="fa-solid fa-gear"></i>
-                    <p>Change password</p>
-                  </div>
+                  <Link to='/ChangePassword'>
+                    <div className="setting__password">
+                      <i class="fa-solid fa-gear"></i>
+                      <p>Change password</p>
+                    </div>
+                  </Link>
                   <div className="setting__logout">
                       <i class="fa-solid fa-circle-xmark"></i>
                       <p>Log out</p>
