@@ -72,6 +72,10 @@
     font-family: 'Inter';
     font-weight: 500; 
 }
+
+.bt-1{
+    bottom: 3px !important;
+}
 .sub__article-header{
     font-size: 1.2rem;
     margin-bottom: 5px;

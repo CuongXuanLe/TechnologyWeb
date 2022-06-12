@@ -1,6 +1,7 @@
 import React from 'react'
 import './HomeHeader.css'
 import images from '../../../constants/images';
+import { Link } from 'react-router-dom'
 
 const HomeHeader = () => {
   return (
@@ -83,7 +84,7 @@ const HomeHeader = () => {
         <div className="sub__article-row">
           <div className="sub__article-text">
                 <img src={images.content_5} alt="image2" />
-                <div className="header__sub-article">
+                <div className="header__sub-article bt-1">
                 <p className="sub__article-header">
                   Yes, you're gay!
                 </p>
@@ -99,7 +100,7 @@ const HomeHeader = () => {
           </div>
           <div className="sub__article-text">
                 <img src={images.content_6} alt="image2" />
-                <div className="header__sub-article">
+                <div className="header__sub-article bt-1">
                 <p className="sub__article-header">
                   Yes, you're gay!
                 </p>
@@ -114,8 +115,9 @@ const HomeHeader = () => {
               </div>
           </div>
           <div className="sub__article-text">
-                <img src={images.content_7} alt="image2" />
-                <div className="header__sub-article">
+            <Link to='/post'>
+              <img src={images.content_7} alt="image2" />
+              <div className="header__sub-article bt-1">
                 <p className="sub__article-header">
                   Yes, you're gay!
                 </p>
@@ -124,14 +126,15 @@ const HomeHeader = () => {
                 adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
                 </p>
-                <div className="sub__article-type">
-                  <p>TECH</p>
-                </div>
+              <div className="sub__article-type">
+                <p>TECH</p>
               </div>
+              </div>
+            </Link>
           </div>
           <div className="sub__article-text">
             <img src={images.content_8} alt="image2" />
-            <div className="header__sub-article">
+            <div className="header__sub-article  bt-1">
             <p className="sub__article-header">
               Yes, you're gay!
             </p>

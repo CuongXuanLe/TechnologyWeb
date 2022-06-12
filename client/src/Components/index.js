@@ -20,6 +20,9 @@ import AboutPage from "./About/AboutPage";
 //Write
 import WritePage from "./Write/WritePage";
 
+//
+import PostPage from "./Post/PostPage";
+
 //Footer
 import Footer from "./Footer/Footer.jsx";
 
@@ -34,5 +37,6 @@ export{
     SignUp,
     Footer,
     AboutPage,
-    WritePage
+    WritePage,
+    PostPage
 }

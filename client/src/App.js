@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavBar, Footer, SideBar } from "./components";
-import { Home, Login, About, Write } from "./pages";
+import { Home, Login, About, Write, Post } from "./pages";
 import {
   BrowserRouter as Router,
   Routes,
@@ -41,6 +41,7 @@ const App = () => {
         <Route path='/login/*' element={<Login setLogin={setLogin} />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/write' element={<Write />}/>
+        <Route path='/post' element={<Post />}/>
       </Routes>
       
       <Footer/>
