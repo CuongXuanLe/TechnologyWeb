@@ -138,9 +138,10 @@ Another idea can be found here HTML/CSS: Making two floating divs the same heigh
             </div>
             <div className="rep__comment">
                 <img src={images.avatarLarge} alt="" />
-                <textarea name="repcommnet" id="" cols="120" rows="3" className="box__rep-comment" placeholder="Add a comment..."></textarea>
+                <textarea name="repcommnet" cols="50" rows="3"  className="box__rep-comment" placeholder="Add a comment..."></textarea>
                 <button className="btn__push-comment">SEND</button>
             </div>
+            
         </div>
     </div>
   )
