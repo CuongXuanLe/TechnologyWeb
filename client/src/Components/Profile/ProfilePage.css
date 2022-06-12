@@ -37,3 +37,19 @@
     line-height: 13px;
     margin-top: -10px;
 }
+
+.profile__recent-active{
+    display: flex;
+    flex-direction: column;
+    width: 870px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #67727E;
+}
+
+.main__profile .profile__recent-active .profile__active-tittle p{
+    font-size: 20px !important;
+}

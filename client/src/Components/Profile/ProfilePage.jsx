@@ -24,6 +24,25 @@ const ProfilePage = () => {
           </div>
         </div>
       </div>
+      <div className="profile__recent-active">
+        <div className="profile__active-title">
+          <p>Recent Activity</p>
+        </div>
+        <div className="comment__info">
+            <div className="comment__info-user">
+                <img src={images.ProfilePicture} alt="user" />
+                <p className="user__name">MikeJoester</p>
+                <p className="user__reply">May 12, 2022 at 17:06</p>
+            </div>
+        </div>
+        <div className="active_comment">
+          <p>
+          Basically what you want to do is delete the file containing the logs which is your ".git" file.<br/>
+            1. rm -rf .git // this is saying remove recursively the git file.<br/>
+            2. git init // this is making the folder a git repo again.<br/>
+          </p>
+        </div>
+      </div>
     </div>
   )
 }
