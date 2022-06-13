@@ -26,6 +26,7 @@ import PostPage from "./Post/PostPage";
 
 //Profile
 import ProfilePage from "./Profile/ProfilePage";
+import EditProfile from "./Profile/EditProfile/EditProfile";
 
 //Footer
 import Footer from "./Footer/Footer.jsx";
@@ -44,5 +45,6 @@ export{
     WritePage,
     PostPage,
     ChangePassword,
-    ProfilePage
+    ProfilePage,
+    EditProfile
 }

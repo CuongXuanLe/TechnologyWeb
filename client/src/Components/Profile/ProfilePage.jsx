@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProfilePage.css'
+import { Link } from 'react-router-dom'
 import images from '../../constants/images'
 
 
@@ -14,7 +15,9 @@ const ProfilePage = () => {
           <p>Ipsum adipisicing culpa est nisi consequat ex amet magna culpa veniam tempor irure ea. Reprehenderit labore do tempor eiusmod in consectetur ex sunt id mollit commodo ipsum deserunt quis.</p>
           <div className="social__info">
             <div className="social__info-website">
+              <Link to='/editProfile'>
               <button className='btn__edit-profile'>EDIT PROFILE</button>
+              </Link>
             </div>
             <div className="social__info-app">
               <i class="fa-brands fa-linkedin-in"></i>

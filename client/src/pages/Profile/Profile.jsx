@@ -1,10 +1,17 @@
 import React from 'react'
-import {ProfilePage } from '../../components'
+import {ProfilePage, EditProfile } from '../../components'
+import {
+  Routes,
+  Route,
+} from 'react-router-dom';
 
 const Profile = () => {
   return (
     <div className='blog__profile'>
-      <ProfilePage/>
+      <Routes>
+        <Route exact path='/' element={<ProfilePage/>}/>
+        <Route path='/editProfile' element={<EditProfile/>}/>
+      </Routes>
     </div>
   )
 }
