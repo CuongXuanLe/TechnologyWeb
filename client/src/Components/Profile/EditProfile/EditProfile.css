@@ -1,0 +1,68 @@
+.main__editProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 200px 0 200px;
+}
+
+.editProfile__img{
+    flex: 1.5;
+}
+
+.editProfile__img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add__img{
+    position: absolute;
+    display: flex;
+    align-self: end;
+    bottom: 0;
+    right: 250px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.add__img i{
+    font-size: 3.5rem;
+}
+
+.editProfile__img img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.editProfile__setting{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.editProfile__setting{
+    flex: 1;
+    display: flex;
+}
+
+.editProfile__setting h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.input__changePassword-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 10px 15px;
+}

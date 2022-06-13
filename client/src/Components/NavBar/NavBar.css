@@ -168,11 +168,33 @@
 
 .setting__profile,
 .setting__password,
-.setting__logout{
+.setting__logout button{
     display: flex;
     flex-direction: row;
     padding: 10px 5px;
     width: 100%;
+}
+
+.setting__logout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.setting__logout button{
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    animation: fadeIn ease-in 0.9s;
+    margin-left: -5px;
+    cursor: pointer;
 }
 
 .setting__password{
@@ -187,6 +209,7 @@
 
 .setting__logout{
     width: 100%;
+    padding-left: 5px;
     border-top: 1px solid #fff;
 }
 

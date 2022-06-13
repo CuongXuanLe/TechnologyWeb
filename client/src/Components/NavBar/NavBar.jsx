@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './NavBar.css'
 import images from '../../constants/images'
 
-const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
+const NavBar= ({ toggleMenu, setToggleMenu, login, setLogin }) => {
   return (
     <div className="Navbar">
       <div className='blog__nav'>
@@ -37,7 +37,7 @@ const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
                   </Link>
                   <div className="setting__logout">
                       <i class="fa-solid fa-circle-xmark"></i>
-                      <p>Log out</p>
+                      <button onClick={setLogin}>Logout</button>
                   </div>
                 </div>
               </div>

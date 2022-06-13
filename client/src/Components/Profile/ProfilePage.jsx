@@ -15,7 +15,7 @@ const ProfilePage = () => {
           <p>Ipsum adipisicing culpa est nisi consequat ex amet magna culpa veniam tempor irure ea. Reprehenderit labore do tempor eiusmod in consectetur ex sunt id mollit commodo ipsum deserunt quis.</p>
           <div className="social__info">
             <div className="social__info-website">
-              <Link to='/editProfile'>
+              <Link to='/profile/EditProfile'>
               <button className='btn__edit-profile'>EDIT PROFILE</button>
               </Link>
             </div>

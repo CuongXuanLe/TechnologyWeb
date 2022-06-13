@@ -36,6 +36,7 @@
     font-size: 11px;
     line-height: 13px;
     margin-top: -10px;
+    cursor: pointer;
 }
 
 .profile__recent-active{

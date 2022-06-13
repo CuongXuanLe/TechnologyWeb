@@ -16,6 +16,7 @@ import ProfilePicture from '../assets/ProfilePicture.png';
 import avatarLarge from '../assets/avatarLarge.png';
 import HeaderWrite from '../assets/HeaderWrite.png';
 import avatacomment from '../assets/Oval.png';
+import editProfile from '../assets/editProfile.png'
 
 export default{
     login,
@@ -35,7 +36,8 @@ export default{
     ProfilePicture,
     avatarLarge,
     HeaderWrite,
-    avatacomment
+    avatacomment,
+    editProfile
 };
 
 

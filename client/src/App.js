@@ -33,7 +33,7 @@ const App = () => {
     <Router>
       <ScrollToTop />
       
-      <NavBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} login={login}/>
+      <NavBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} login={login} setLogin={setLogin}/>
       <SideBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
       
       <Routes>
