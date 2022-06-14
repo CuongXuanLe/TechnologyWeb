@@ -20,7 +20,10 @@ const SignUp = () => {
           <input type="password" className="input__password" placeholder="Password"/>
           <input type="password" className="input__password" placeholder="Re-enter password"/>
           <div className="Privacy__Prolicy">
-            <p>I agree with <span>Terms of Service</span> and <span>Privacy Prolicy</span></p>
+            <input type="checkbox" className='check__box' />
+            <label className='form__check'>
+              <p>I agree with <span>Terms of Service</span> and <span>Privacy Prolicy</span></p>
+            </label> 
           </div>
           <div className="input__SignIn">
             <Link to="/login">

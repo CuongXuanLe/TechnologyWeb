@@ -18,10 +18,18 @@
     font-size: 17px;
     line-height: 14px;
     color: #989898;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
 
 .Privacy__Prolicy span{
     color: #000;
+}
+
+.check__box{
+    margin-right: 10px;
 }
 
 .input__SignIn p{
