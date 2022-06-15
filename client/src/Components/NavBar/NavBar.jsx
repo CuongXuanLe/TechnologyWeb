@@ -3,16 +3,22 @@ import { Link } from 'react-router-dom'
 import './NavBar.css'
 import images from '../../constants/images'
 
-const NavBar= ({ toggleMenu, setToggleMenu, login, setLogin }) => {
+const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
+  function refreshPage(){
+    window.location.reload();
+  } 
   return (
     <div className="Navbar">
       <div className='blog__nav'>
         <div className={"top__menu" + (toggleMenu && "active")} onClick={() => setToggleMenu(!toggleMenu)}>
           <i class="fa-solid fa-bars"></i>
         </div>
+        
         <div className="top__name">
-          <a href="/">TEKUN.IO</a>
-          </div>
+          <Link to="/">
+            <p>TEKUN.IO</p>
+          </Link>
+        </div>
         <div className="top__nav">
             <div class="search__box">
               <button class="search__submit" aria-label="submit search"><i class="fas fa-search"></i></button>
@@ -37,7 +43,7 @@ const NavBar= ({ toggleMenu, setToggleMenu, login, setLogin }) => {
                   </Link>
                   <div className="setting__logout">
                       <i class="fa-solid fa-circle-xmark"></i>
-                      <button onClick={setLogin}>Logout</button>
+                      <button onClick={refreshPage}>Logout</button>
                   </div>
                 </div>
               </div>
