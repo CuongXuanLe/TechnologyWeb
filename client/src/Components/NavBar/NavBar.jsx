@@ -43,7 +43,11 @@ const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
                   </Link>
                   <div className="setting__logout">
                       <i class="fa-solid fa-circle-xmark"></i>
-                      <button onClick={refreshPage}>Logout</button>
+                      <button onClick={refreshPage}>
+                        <Link to="/">
+                          Logout
+                        </Link>
+                      </button>
                   </div>
                 </div>
               </div>

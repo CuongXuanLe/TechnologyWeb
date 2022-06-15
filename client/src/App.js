@@ -34,7 +34,7 @@ const App = () => {
       <ScrollToTop />
       
       <NavBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} login={login} setLogin={setLogin}/>
-      <SideBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
+      <SideBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} login={login} setLogin={setLogin}/>
       
       <Routes>
         <Route path='/' element={<Home />}/>

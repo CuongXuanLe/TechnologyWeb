@@ -2,7 +2,7 @@ import React from 'react'
 import './SideBar.css'
 import { Link } from 'react-router-dom'
 
-const SideBar= ({ toggleMenu, setToggleMenu }) => {
+const SideBar= ({ toggleMenu, setToggleMenu, login }) => {
   return (
     <div className={'blog__sidebar' + (toggleMenu && "active")}>
       <div className="list__sub-nav">
@@ -17,15 +17,36 @@ const SideBar= ({ toggleMenu, setToggleMenu }) => {
                     ABOUT                
                     </Link>
                 </li>
+                
                 <li onClick={() => setToggleMenu(false)}>
-                    <Link to="/Profile" >
-                    PROFILE                
-                    </Link>
+                    {login 
+                      ? (
+                        <Link to="/Profile" >
+                          PROFILE                
+                        </Link>
+                      ) : (
+                        <Link to="/login">
+                          PROFILE
+                        </Link>
+                      )
+
+                    }
+                    
                 </li>
                 <li onClick={() => setToggleMenu(false)}>
-                    <Link to="/write" >
-                    WRITE                
-                    </Link>
+                    {login 
+                      ? (
+                        <Link to="/write" >
+                        WRITE                
+                        </Link>
+                      ) : (
+                        <Link to="/login" >
+                        WRITE                
+                        </Link>
+                      )
+
+                    }
+                    
                 </li>
           </ul>
       </div>
