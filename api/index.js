@@ -1,9 +1,12 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const multer = require("multer");
-const path = require("path");
 const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
+const userRoute = require("./routes/users");
+const postRoute = require("./routes/posts");
+const categoryRoute = require("./routes/categories");
+const multer = require("multer");
+const path = require("path");
 
 
 const app = express();
@@ -15,17 +18,8 @@ mongoose
     .then(console.log("Connected to MongoDB"))
     .catch((err) => console.log(err));
 
-
-// try{
-//     mongoose.connect(process.env.MONGO_URL);
-//     console.log("Connected to MongoDB");
-// } catch(err) {
-//     console.log(err);
-//     console.log("Couldn't connect to MongoDB");
-// }
-
-
 app.use("/api/auth", authRoute);
+app.use("/api/users", userRoute);
 
 app.listen("5000", () => {
     console.log("Backend is running.");
