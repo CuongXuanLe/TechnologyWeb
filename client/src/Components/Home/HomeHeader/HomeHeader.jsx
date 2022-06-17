@@ -9,7 +9,7 @@ const HomeHeader = () => {
       <div className="homeHeader__container">
         <div className="homeHeader__article-row">
           {/* main-article */}
-          <div className="main__article">
+          <a href="#" className="main__article">
             <img src={images.iphone} alt="iphone"/>
             <div className="homeHeader__article-tittle">
               <p className="article__tittle-header">
@@ -24,12 +24,12 @@ const HomeHeader = () => {
                 <p>TECH</p>
               </div>
             </div>
-          </div>
+          </a>
 
           {/* sub-article */}
           <div className="sub__article-col">
             <div className="sub__article-row">
-              <div className="sub__article-text">
+              <a href="#" className="sub__article-text">
                 <img src={images.content_2} alt="image2" />
                 <div className="header__sub-article">
                 <p className="sub__article-header">
@@ -44,8 +44,8 @@ const HomeHeader = () => {
                   <p>LIFE</p>
                 </div>
               </div>
-            </div>
-            <div className="sub__article-text">
+            </a>
+            <a href="#" className="sub__article-text">
                 <img src={images.content_3} alt="image2" />
                 <div className="header__sub-article">
                 <p className="sub__article-header">
@@ -60,9 +60,9 @@ const HomeHeader = () => {
                   <p>TRUTH</p>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
-          <div className="sub__article-text">
+          <a href="#" className="sub__article-text">
             <img src={images.content_4} alt="image2" />
               <div className="header__sub-article">
               <p className="sub__article-header">
@@ -77,12 +77,12 @@ const HomeHeader = () => {
                 <p>LIFE</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         </div>
 
         <div className="sub__article-row">
-          <div className="sub__article-text">
+          <a href="#" className="sub__article-text">
                 <img src={images.content_5} alt="image2" />
                 <div className="header__sub-article bt-1">
                 <p className="sub__article-header">
@@ -97,8 +97,8 @@ const HomeHeader = () => {
                   <p>TRUTH</p>
                 </div>
               </div>
-          </div>
-          <div className="sub__article-text">
+          </a>
+          <a href="#" className="sub__article-text">
                 <img src={images.content_6} alt="image2" />
                 <div className="header__sub-article bt-1">
                 <p className="sub__article-header">
@@ -113,7 +113,7 @@ const HomeHeader = () => {
                   <p>LIFE</p>
                 </div>
               </div>
-          </div>
+          </a>
           <div className="sub__article-text">
             <Link to='/post'>
               <img src={images.content_7} alt="image2" />
@@ -132,7 +132,7 @@ const HomeHeader = () => {
               </div>
             </Link>
           </div>
-          <div className="sub__article-text">
+          <a href="#" className="sub__article-text">
             <img src={images.content_8} alt="image2" />
             <div className="header__sub-article  bt-1">
             <p className="sub__article-header">
@@ -147,7 +147,7 @@ const HomeHeader = () => {
               <p>TRUTH</p>
             </div>
             </div>
-          </div>
+          </a>
         </div>
 
       </div>

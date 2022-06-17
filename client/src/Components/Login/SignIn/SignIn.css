@@ -105,6 +105,10 @@
     padding: 20px 190px;
 }
 
+.disabled__btn:disabled{
+    cursor: not-allowed !important;
+}
+
 .SignIn__otherways{
     margin: 35px 0;
     display: flex;
