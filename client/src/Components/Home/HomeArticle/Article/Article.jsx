@@ -10,7 +10,7 @@ const Article = ({
     date,
     content}) => {
   return (
-    <a href={link} className='Article__items' alt={header}>
+    <div className='Article__items'>
       <div className="article__img">
           <img src={image} alt="Article"/>
       </div>
@@ -30,7 +30,7 @@ const Article = ({
               <p>{content}</p>
           </div>
       </div>
-    </a>
+    </div>
   )
 }
 

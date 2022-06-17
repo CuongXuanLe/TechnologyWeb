@@ -35,3 +35,7 @@
 .input__SignIn p{
     padding: 15px 190px;
 }
+
+.set__btn{
+    border: none;
+}
