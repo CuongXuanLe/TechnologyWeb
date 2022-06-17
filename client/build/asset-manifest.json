@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/TechnologyWeb/static/css/main.997fa21f.css",
+    "main.js": "/TechnologyWeb/static/js/main.862c2779.js",
+    "static/media/article.png": "/TechnologyWeb/static/media/article.ae70d21ebfed5daa6807.png",
+    "static/media/login.png": "/TechnologyWeb/static/media/login.4129dab4c08e37055183.png",
+    "static/media/HeaderWrite.png": "/TechnologyWeb/static/media/HeaderWrite.6872fd75eadaba9de9b5.png",
+    "static/media/editProfile.png": "/TechnologyWeb/static/media/editProfile.8a4c8e455c388683c829.png",
+    "static/media/content_4.png": "/TechnologyWeb/static/media/content_4.a8115eeb8599bff7d745.png",
+    "static/media/content_3.png": "/TechnologyWeb/static/media/content_3.86ebe90fdc3335480973.png",
+    "static/media/content_6.png": "/TechnologyWeb/static/media/content_6.10854060471fd79a4637.png",
+    "static/media/iphone.png": "/TechnologyWeb/static/media/iphone.74226ef41c18bb0a3877.png",
+    "static/media/content_2.png": "/TechnologyWeb/static/media/content_2.482d92d84daaa960e826.png",
+    "static/media/content_5.png": "/TechnologyWeb/static/media/content_5.56b9e961a8f729334c2e.png",
+    "static/media/footer_2.png": "/TechnologyWeb/static/media/footer_2.a891cb38c96dd8fb80e3.png",
+    "static/media/footer_1.png": "/TechnologyWeb/static/media/footer_1.b0768c292681358b3a20.png",
+    "static/media/avatarLarge.png": "/TechnologyWeb/static/media/avatarLarge.206ab6583ec51cbfd63a.png",
+    "static/media/content_8.png": "/TechnologyWeb/static/media/content_8.44d463c4b322d8b63eed.png",
+    "static/media/footer_4.png": "/TechnologyWeb/static/media/footer_4.be794f73f08d2b445683.png",
+    "static/media/content_7.png": "/TechnologyWeb/static/media/content_7.46b6fee29908295e0c2d.png",
+    "static/media/footer_3.png": "/TechnologyWeb/static/media/footer_3.14d1b5ac13bd7d8233e5.png",
+    "index.html": "/TechnologyWeb/index.html",
+    "main.997fa21f.css.map": "/TechnologyWeb/static/css/main.997fa21f.css.map",
+    "main.862c2779.js.map": "/TechnologyWeb/static/js/main.862c2779.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.997fa21f.css",
+    "static/js/main.862c2779.js"
+  ]
+}
