@@ -39,7 +39,7 @@ const App = () => {
       <SideBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} login={login} setLogin={setLogin}/>
       
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/TechnologyWeb' element={<Home />}/>
         <Route path='/login/*' element={<Login setLogin={setLogin} />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/write' element={<Write />}/>

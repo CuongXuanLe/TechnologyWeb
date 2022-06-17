@@ -8,7 +8,7 @@ const SideBar= ({ toggleMenu, setToggleMenu, login }) => {
       <div className="list__sub-nav">
           <ul className='sub__nav'>
                 <li onClick={() => setToggleMenu(false)}>
-                    <Link to="/" >
+                    <Link to="/TechnologyWeb" >
                     HOME                
                     </Link>
                 </li>

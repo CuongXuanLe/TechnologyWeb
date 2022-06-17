@@ -15,7 +15,7 @@ const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
         </div>
         
         <div className="top__name">
-          <Link to="/">
+          <Link to="/TechnologyWeb">
             <p>TEKUN.IO</p>
           </Link>
         </div>
@@ -44,7 +44,7 @@ const NavBar= ({ toggleMenu, setToggleMenu, login }) => {
                   <div className="setting__logout">
                       <i class="fa-solid fa-circle-xmark"></i>
                       <button onClick={refreshPage}>
-                        <Link to="/">
+                        <Link to="/TechnologyWeb">
                           Logout
                         </Link>
                       </button>

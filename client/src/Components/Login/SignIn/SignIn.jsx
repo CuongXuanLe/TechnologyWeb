@@ -35,9 +35,9 @@ export default function SignIn({ setLogin }){
           <p>Welcome back</p>
           <h1>Login to your account</h1>
         </div>
-        <form className="btn__input" onSubmit={handleSubmit}>
-          <input type="email" className="input__account" placeholder="Enter Email" ref={userRef}/>
-          <input type="password" className="input__password" placeholder="Password" ref={passwordRef}/>
+        <form className="btn__input">
+          <input type="email" className="input__account" placeholder="Enter Email"/>
+          <input type="password" className="input__password" placeholder="Password" />
           <div className="forgetPassword">
           <p>Recover Password?</p>
           </div>
@@ -45,9 +45,8 @@ export default function SignIn({ setLogin }){
             <button 
             type="submit" 
             className='input__SignIn-btn disabled__btn' 
-            onClick={setLogin} 
-            disabled={isFetching}>
-              <Link to="/">
+            onClick={setLogin} >
+              <Link to="/TechnologyWeb">
                 Sign In
               </Link>
               </button>
