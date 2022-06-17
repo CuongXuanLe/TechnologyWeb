@@ -10,7 +10,7 @@ const Article = ({
     date,
     content}) => {
   return (
-    <a href="/TechnologyWeb" className='Article__items'>
+    <a href="#" className='Article__items'>
       <div className="article__img">
           <img src={image} alt="Article"/>
       </div>
