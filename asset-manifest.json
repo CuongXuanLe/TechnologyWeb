@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TechnologyWeb/static/css/main.997fa21f.css",
-    "main.js": "/TechnologyWeb/static/js/main.26038059.js",
+    "main.css": "/TechnologyWeb/static/css/main.ea0fe079.css",
+    "main.js": "/TechnologyWeb/static/js/main.b1384f07.js",
     "static/media/article.png": "/TechnologyWeb/static/media/article.ae70d21ebfed5daa6807.png",
     "static/media/login.png": "/TechnologyWeb/static/media/login.4129dab4c08e37055183.png",
     "static/media/HeaderWrite.png": "/TechnologyWeb/static/media/HeaderWrite.6872fd75eadaba9de9b5.png",
@@ -20,11 +20,11 @@
     "static/media/content_7.png": "/TechnologyWeb/static/media/content_7.46b6fee29908295e0c2d.png",
     "static/media/footer_3.png": "/TechnologyWeb/static/media/footer_3.14d1b5ac13bd7d8233e5.png",
     "index.html": "/TechnologyWeb/index.html",
-    "main.997fa21f.css.map": "/TechnologyWeb/static/css/main.997fa21f.css.map",
-    "main.26038059.js.map": "/TechnologyWeb/static/js/main.26038059.js.map"
+    "main.ea0fe079.css.map": "/TechnologyWeb/static/css/main.ea0fe079.css.map",
+    "main.b1384f07.js.map": "/TechnologyWeb/static/js/main.b1384f07.js.map"
   },
   "entrypoints": [
-    "static/css/main.997fa21f.css",
-    "static/js/main.26038059.js"
+    "static/css/main.ea0fe079.css",
+    "static/js/main.b1384f07.js"
   ]
 }
