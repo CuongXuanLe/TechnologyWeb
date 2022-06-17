@@ -23,26 +23,26 @@ const HomeArticle = () => {
           <p className="article__tag-header">
               tags.
           </p>
-          <a href='#' alt='nothing'>Technology</a>
-          <a href='#' alt='nothing'>Open Source</a>
-          <a href='#' alt='nothing'>JavaScript</a>
-          <a href='#' alt='nothing'>Minimalism</a>
-          <a href='#' alt='nothing'>Self-help</a>
-          <a href='#' alt='nothing'>Animals</a>
-          <a href='#' alt='nothing'>Herbivores</a>
-          <a href='#' alt='nothing'>HTML</a>
-          <a href='#' alt='nothing'>CSS</a>
-          <a href='#' alt='nothing'>PHP</a>
-          <a href='#' alt='nothing'>Web Technologies</a>
-          <a href='#' alt='nothing'>Career</a>
-          <a href='#' alt='nothing'>Life</a>
-          <a href='#' alt='nothing'>Spirituality</a>
-          <a href='#' alt='nothing'>Food</a>
-          <a href='#' alt='nothing'>Cooking</a>
-          <a href='#' alt='nothing'>Sports</a>
-          <a href='#' alt='nothing'>Racing</a>
-          <a href='#' alt='nothing'>Mountain Hiking</a>
-          <a href='#' alt='nothing'>Cruising</a>
+          <a href='/TechnologyWeb' alt='nothing'>Technology</a>
+          <a href='/TechnologyWeb' alt='nothing'>Open Source</a>
+          <a href='/TechnologyWeb' alt='nothing'>JavaScript</a>
+          <a href='/TechnologyWeb' alt='nothing'>Minimalism</a>
+          <a href='/TechnologyWeb' alt='nothing'>Self-help</a>
+          <a href='/TechnologyWeb' alt='nothing'>Animals</a>
+          <a href='/TechnologyWeb' alt='nothing'>Herbivores</a>
+          <a href='/TechnologyWeb' alt='nothing'>HTML</a>
+          <a href='/TechnologyWeb' alt='nothing'>CSS</a>
+          <a href='/TechnologyWeb' alt='nothing'>PHP</a>
+          <a href='/TechnologyWeb' alt='nothing'>Web Technologies</a>
+          <a href='/TechnologyWeb' alt='nothing'>Career</a>
+          <a href='/TechnologyWeb' alt='nothing'>Life</a>
+          <a href='/TechnologyWeb' alt='nothing'>Spirituality</a>
+          <a href='/TechnologyWeb' alt='nothing'>Food</a>
+          <a href='/TechnologyWeb' alt='nothing'>Cooking</a>
+          <a href='/TechnologyWeb' alt='nothing'>Sports</a>
+          <a href='/TechnologyWeb' alt='nothing'>Racing</a>
+          <a href='/TechnologyWeb' alt='nothing'>Mountain Hiking</a>
+          <a href='/TechnologyWeb' alt='nothing'>Cruising</a>
       </div>
     </div>
   )

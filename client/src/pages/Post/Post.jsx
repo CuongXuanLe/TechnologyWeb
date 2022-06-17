@@ -1,6 +1,6 @@
 import React from 'react'
 import './Post.css'
-import { PostPage } from '../../components'
+import { PostPage } from '../../Components'
 
 const Post = () => {
   return (

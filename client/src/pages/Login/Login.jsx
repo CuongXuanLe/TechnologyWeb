@@ -1,5 +1,5 @@
 import React from 'react'
-import { SignIn, SignUp } from '../../components'
+import { SignIn, SignUp } from '../../Components'
 import './Login.css'
 import {
   Routes,

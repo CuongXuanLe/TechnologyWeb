@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NavBar, Footer, SideBar } from "./components";
+import { NavBar, Footer, SideBar } from "./Components";
 import { Home, Login, About, Write, Post, Password, Profile } from "./pages";
 import { useContext } from "react";
 import { Context } from "./context/Context";
@@ -8,7 +8,6 @@ import {
   Routes,
   Route,
   useLocation,
-  Link
 } from 'react-router-dom';
 import './App.css';
 

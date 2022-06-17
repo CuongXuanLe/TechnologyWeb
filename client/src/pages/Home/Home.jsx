@@ -1,6 +1,5 @@
-import {useEffect, useState} from 'react'
-import { HomeArticle, HomeContent, HomeHeader } from '../../components'
-import axios from 'axios'
+import { HomeArticle, HomeContent, HomeHeader } from '../../Components'
+import './Home.css'
 
 export default function Home(){
   // const [posts, setPosts] = useState([]);

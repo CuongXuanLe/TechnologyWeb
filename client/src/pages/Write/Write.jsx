@@ -1,6 +1,6 @@
 import React from 'react'
 import './Write.css'
-import { WritePage } from '../../components'
+import { WritePage } from '../../Components'
 
 const Write = () => {
   return (

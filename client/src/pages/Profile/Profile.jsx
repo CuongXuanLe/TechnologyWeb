@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProfilePage, EditProfile } from '../../components'
+import {ProfilePage, EditProfile } from '../../Components'
 import {
   Routes,
   Route,

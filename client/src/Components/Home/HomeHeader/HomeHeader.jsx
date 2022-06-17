@@ -9,7 +9,7 @@ const HomeHeader = () => {
       <div className="homeHeader__container">
         <div className="homeHeader__article-row">
           {/* main-article */}
-          <a href="#" className="main__article">
+          <a href="/TechnologyWeb" className="main__article">
             <img src={images.iphone} alt="iphone"/>
             <div className="homeHeader__article-tittle">
               <p className="article__tittle-header">
@@ -29,7 +29,7 @@ const HomeHeader = () => {
           {/* sub-article */}
           <div className="sub__article-col">
             <div className="sub__article-row">
-              <a href="#" className="sub__article-text">
+              <a href="/TechnologyWeb" className="sub__article-text">
                 <img src={images.content_2} alt="image2" />
                 <div className="header__sub-article">
                 <p className="sub__article-header">
@@ -45,7 +45,7 @@ const HomeHeader = () => {
                 </div>
               </div>
             </a>
-            <a href="#" className="sub__article-text">
+            <a href="/TechnologyWeb" className="sub__article-text">
                 <img src={images.content_3} alt="image2" />
                 <div className="header__sub-article">
                 <p className="sub__article-header">
@@ -62,7 +62,7 @@ const HomeHeader = () => {
               </div>
             </a>
           </div>
-          <a href="#" className="sub__article-text">
+          <a href="/TechnologyWeb" className="sub__article-text">
             <img src={images.content_4} alt="image2" />
               <div className="header__sub-article">
               <p className="sub__article-header">
@@ -82,7 +82,7 @@ const HomeHeader = () => {
         </div>
 
         <div className="sub__article-row">
-          <a href="#" className="sub__article-text">
+          <a href="/TechnologyWeb" className="sub__article-text">
                 <img src={images.content_5} alt="image2" />
                 <div className="header__sub-article bt-1">
                 <p className="sub__article-header">
@@ -98,7 +98,7 @@ const HomeHeader = () => {
                 </div>
               </div>
           </a>
-          <a href="#" className="sub__article-text">
+          <a href="/TechnologyWeb" className="sub__article-text">
                 <img src={images.content_6} alt="image2" />
                 <div className="header__sub-article bt-1">
                 <p className="sub__article-header">
@@ -132,7 +132,7 @@ const HomeHeader = () => {
               </div>
             </Link>
           </div>
-          <a href="#" className="sub__article-text">
+          <a href="/TechnologyWeb" className="sub__article-text">
             <img src={images.content_8} alt="image2" />
             <div className="header__sub-article  bt-1">
             <p className="sub__article-header">

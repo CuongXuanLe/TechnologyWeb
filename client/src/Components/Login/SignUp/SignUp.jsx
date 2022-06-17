@@ -49,7 +49,11 @@ export default function SignUp() {
           </div>
           {error && <span style={{color: 'red', fontSize:'17px', fontFamily:'Roboto', textAlign:'center', marginBottom:'10px'}}> Something went wrong! </span>}
           <button type="submit" className="input__SignIn-btn set__btn">
-              <p>Sign Up</p>
+              <Link to="/login">
+                <p>
+                  Sign Up
+                </p>
+              </Link>
           </button>
         </form> 
       </div>

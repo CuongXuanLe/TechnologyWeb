@@ -29,7 +29,7 @@ import ProfilePage from "./Profile/ProfilePage";
 import EditProfile from "./Profile/EditProfile/EditProfile";
 
 //Footer
-import Footer from "./Footer/Footer.jsx";
+import Footer from "./Footer/Footer";
 
 export{
     NavBar,
